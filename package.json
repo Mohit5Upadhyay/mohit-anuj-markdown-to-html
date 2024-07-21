@@ -1,0 +1,35 @@
+{
+  "name": "mohit-anuj-markdown-to-html",
+  "version": "1.0.0",
+  "description": "An npm package that  is used to convert markdown text into html.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit5Upadhyay/mohit-anuj-markdown-to-html.git"
+  },
+  "keywords": [
+    "markdownToHtmlConverter",
+    "markdownConverter",
+    "htmlConverter"
+  ],
+  "author": "Mohit Upadhyay & Anuj Kumar Upadhyay",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Mohit5Upadhyay/mohit-anuj-markdown-to-html/issues"
+  },
+  "homepage": "https://github.com/Mohit5Upadhyay/mohit-anuj-markdown-to-html#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.1.6",
+    "jsdom": "^24.1.1",
+    "marked": "^13.0.2"
+  },
+  "files": [
+    "src/"
+  ]
+}
